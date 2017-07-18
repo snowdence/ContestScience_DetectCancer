@@ -139,6 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="NeuralLayer.h" />
+    <ClInclude Include="NeuralProcess.h" />
+    <ClInclude Include="SupportFile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NeuralLayer.cpp" />
+    <ClCompile Include="NeuralProcess.cpp" />
+    <ClCompile Include="SupportFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DocumentComment.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
